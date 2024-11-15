@@ -1,5 +1,8 @@
 # 命令
 
+## nginx.conf 配置验证
+nginx -t
+
 ## windows刷新
 nginx -s reload
 
