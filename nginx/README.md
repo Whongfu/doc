@@ -1,6 +1,9 @@
 # 命令
 
-- 终止所有进程
+## windows刷新
+nginx -s reload
+
+## 终止所有进程
 taskkill /IM nginx.exe /f
 
 ## 启动
