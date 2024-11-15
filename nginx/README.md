@@ -3,6 +3,9 @@
 ## windows刷新
 nginx -s reload
 
+## nginx服务是否运行
+tasklist | findstr nginx
+
 ## 终止所有进程
 taskkill /IM nginx.exe /f
 
